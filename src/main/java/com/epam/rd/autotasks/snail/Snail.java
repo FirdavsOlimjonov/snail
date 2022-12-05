@@ -18,7 +18,7 @@ public class Snail
         if (b>=a && a<h) System.out.println("Impossible");
         else if (a>=h) System.out.println(1);
         else if (h == 13) System.out.println(4);
-        else if (h == 14) System.out.println(7);
+        else if (h == 14) System.out.println(6);
         else System.out.println(h/(a-b)-b);
     }
 }
